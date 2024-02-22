@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(67, 63, 58);
+}
+
+.container{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 2.5vmax;
+}
+
+.container>h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+#noOfWords{
+    padding: .5vmax;
+    width: 40vmax;
+    border: 1px solid rgb(190, 186, 186);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1vmax 0;
+    outline: none;
+}
+
+
+button{
+    padding: .5vmax;
+    border: 1px solid rgb(190, 186, 186);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(67, 63, 58);
+    transition: background-color .3s;
+}
+
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.container>p{
+    background-color: rgb(233, 233, 233);
+    padding: 1vmax;
+    border-radius: .7vmax;
+    margin-bottom: 1vmax;
+    word-spacing: 4px;
+}
